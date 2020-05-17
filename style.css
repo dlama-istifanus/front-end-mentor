@@ -27,6 +27,13 @@
     color: #000000;
     border-bottom: solid 2px rgb(49,205,113);  
 }
+#header .header-top i{
+    display: none;
+    position: absolute;
+    left: 90%;
+    font-size: 20px;
+    color: rgb(112, 111, 111);
+}
 #header .header-top .request-btn a{
     text-decoration: none;
     background: rgb(49,205,113);
@@ -257,7 +264,7 @@
        display: none;
     }
     #header .header-top .menu{
-        /* display: none; */
+        display: none;
         position: absolute;
         height: 280px;
         background-color: #ffff;
@@ -281,7 +288,15 @@
         border-bottom: none;
         color: #2fc68f;
     }
-     
+    #header .header-top i{
+        display: block;
+    }
+    #header .header-top .fa-bars{
+        display: block;
+    }
+    #header .header-top .fa-times{
+        display: none;
+    }
     /* header-body */
     #header .header-body{
         display: flex;
