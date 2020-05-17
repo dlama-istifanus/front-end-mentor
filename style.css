@@ -293,9 +293,11 @@
     }
     #header .header-top .fa-bars{
         display: block;
+        cursor: pointer;
     }
     #header .header-top .fa-times{
         display: none;
+        cursor: pointer;
     }
     /* header-body */
     #header .header-body{
