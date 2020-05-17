@@ -257,16 +257,40 @@
        display: none;
     }
     #header .header-top .menu{
-        display: none;
+        /* display: none; */
+        position: absolute;
+        height: 280px;
+        background-color: #ffff;
+        z-index: 2;
+        top: 110px;
+        width: 90%;
+        left: 6%;
+        padding: 30px 0;
+        border-radius: 4px;
+        box-shadow: 0px 55px 96px 26px rgba(0,0,0,0.75);
      }
+     #header .header-top .menu a{
+         display: block;
+         text-align: center;
+         font-size: 20px;
+         margin: 12px 0;
+         color: black;
+     }
+     #header .header-top .menu a:hover{
+        color: #000000;
+        border-bottom: none;
+        color: #2fc68f;
+    }
+     
     /* header-body */
     #header .header-body{
         display: flex;
         flex-direction: column-reverse;
+        z-index: 0;
     }
     #header .header-body .right-side{
         width: 650px;
-        height: 600px;
+        height: 450px;
         background-position: 20px -130px;
         margin-bottom: -100px;
     }
